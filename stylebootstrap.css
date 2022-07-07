@@ -1,6 +1,7 @@
-/* .altura {
-    height: 590px;
-} */
+body {
+    background-color: black;
+}
+
 
 #cuotas {
     background-color: black;
@@ -224,7 +225,130 @@ iframe {
     background-color: white;
 }
 
+ /* HTML NOSOTROS */
 
+ .bannerNosotros {
+    margin-top: 130px;
+ }
+
+ .fondoDescripcionNosotros {
+    background-color: black;
+    color: white;
+ }
+
+ .imagenDescripcionNosotros {
+    background-image: url(./Imagenes/empresa-bg\ \(1\).jpg);
+    background-position-x: -600px;
+ }
+
+ .nos {
+    margin-top: 180px;
+    opacity: 70%;
+    border-radius: 30px;
+ }
+
+.descripcionNosotrosTitulo {
+    background-color: rgb(255, 255, 255);
+    color: rgb(151, 17, 17);
+    margin-top: -20px;
+    margin-left: 230px;
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    width: 950px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+.descripcionNosotrosParrafo {
+    margin-top: 40px;
+}
+ 
+
+   /* HTML HOMBRE BOOTSTRAP */
+
+.presentacionCatalogo {
+    margin-top: 130px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.pCHLista, .ubicacionHombre {
+    margin-top: 40px;
+}
+
+.listaCatalogo {
+    list-style: none;
+    margin-top: 50px;
+}
+
+.listaCatalogo li a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    line-height: 35px;
+    margin-left: 15px;
+}
+
+.folder {
+    width: 30px;
+    height: 30px;
+}
+
+
+.listaCatalogo li a:hover{
+    color: rgb(139, 3, 3);
+    text-decoration: underline;
+    transition: all .3s;
+}
+
+.h3Productos, .h3RangoDePrecios, .h3Categorias {
+    font-size: 30px;
+    color:   white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.h3Categorias {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.fotoCatalogo {
+    color: white;
+}
+
+.CatalogoHombre {
+    border-bottom: 1px solid white;
+}
+
+.cardTamaño {
+    width: 200px;
+}
+
+
+
+            /* MEDIA QUERI HTML NOSOTROS */
+
+@media screen and (max-width: 776px) {
+    .descripcionNosotrosTitulo {
+        font-size: 17px;
+        width: 300px;
+        margin-left: 80px;
+    }
+
+    .nos {
+        margin-top: 20px;
+    }
+
+}
+
+
+    /* MEDIA QUERI NOSTROS BOOTSTRAP */
 
 @media screen and (max-width: 776px) {
     .contenedorContacto2 {
@@ -246,4 +370,23 @@ iframe {
     .textoBannerContacto {
         margin-top: -20px;
     }
+}
+
+
+    /* MEDIA QUERI HOMBRE BOOTSTRAP */
+
+@media screen and (max-width: 776px) {
+         .pCHLista2 {
+            display: none;
+         }
+
+         .cardTamaño {
+            width: 100px;
+            text-align: center;
+         }
+
+         .h3Productos, .folder {
+            text-align: center;
+         }
+         
 }
